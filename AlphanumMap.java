@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Alphanum {
+public class AlphanumMap {
     public static int phoneWord2Num(String word) {
         Map<Character, Integer> map = new HashMap<Character, Integer>();
         map.put('a', 2);
